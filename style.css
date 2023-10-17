@@ -84,3 +84,25 @@ header .sub-heading {
     background: #ffd166;
     transform: rotateX(-90deg) translateZ(var(--translateZ));
 }
+
+@media (max-width: 650px) {
+    :root {
+        --cube-width: 200px;
+        --translateZ: 100px;
+    }
+
+    .container {
+        background: green;
+        text-align: center;
+    }
+
+    .container .cube-container {
+        padding: 20px;
+        width: var(--cube-width);
+        margin: 20px auto;
+    }
+
+    .container .header-container {
+        display: block;
+    }
+}
