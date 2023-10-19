@@ -20,7 +20,7 @@ header {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -92,7 +92,6 @@ header .sub-heading {
     }
 
     .container {
-        background: green;
         text-align: center;
     }
 
