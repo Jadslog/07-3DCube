@@ -91,6 +91,19 @@ header .sub-heading {
         --translateZ: 100px;
     }
 
+    header {
+        display: block;
+    }
+
+    header h1 {
+        margin: 5px 0;
+        font-size: 80px;
+    }
+
+    header .sub-heading {
+        font-size: 22px;
+    }
+
     .container {
         text-align: center;
     }
@@ -101,7 +114,7 @@ header .sub-heading {
         margin: 20px auto;
     }
 
-    .container .header-container {
-        display: block;
+    .cube-container .cube-face {
+        font-size: 25px;
     }
 }
