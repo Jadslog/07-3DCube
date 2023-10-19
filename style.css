@@ -38,6 +38,7 @@ header .sub-heading {
 .cube-container {
     perspective: 1000px;
 }
+
 .cube-container .cube {
     width: var(--cube-width);
     height: var(--cube-width);
@@ -66,20 +67,24 @@ header .sub-heading {
     background: #06d6a0;
     transform: rotateY(180deg) translateZ(var(--translateZ));
 }
+
 .cube-container .left {
     background: #023047;
     color: #fff;
     transform: rotateY(-90deg) translateZ(var(--translateZ));
 }
+
 .cube-container .right {
     background: #3d348b;
     color: #fff;
     transform: rotateY(90deg) translateZ(var(--translateZ));
 }
+
 .cube-container .top {
     background: #a8dadc;
     transform: rotateX(90deg) translateZ(var(--translateZ));
 }
+
 .cube-container .bottom {
     background: #ffd166;
     transform: rotateX(-90deg) translateZ(var(--translateZ));
