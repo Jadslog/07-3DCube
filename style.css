@@ -102,11 +102,11 @@ header .sub-heading {
 
     header h1 {
         margin: 5px 0;
-        font-size: 80px;
+        font-size: 50px;
     }
 
     header .sub-heading {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .container {
